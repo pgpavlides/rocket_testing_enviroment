@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.infotext {
+  color:white;
+  font-size: 50px;
+  position: absolute;
+  z-index: 10000;
+}
+
+
+#resetCameraButton {
+  color:rgb(36, 149, 194);
+  font-size: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 10000;
+  transition: all 0.2s ease;
+}
+
+#resetCameraButton:hover {
+  transform: scale(1.1);
+}
+#resetCameraButton:active {
+  transition: 0.1s ease;
+  transform: scale(1);
+}
