@@ -17,15 +17,17 @@ body {
 
 .infotext {
   color:white;
-  font-size: 50px;
+  font-size: 25px;
   position: absolute;
+  top: 120px;
+  left: 50px;
   z-index: 10000;
 }
 
 
 #resetCameraButton {
   color:rgb(36, 149, 194);
-  font-size: 50px;
+  font-size: 25px;
   position: absolute;
   top: 50px;
   left: 50px;
